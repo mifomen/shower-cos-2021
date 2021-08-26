@@ -24,8 +24,12 @@ position: relative;
   padding: 0;
 
 }
-.mifomen {
+.bg-image {
   color: var(--red);
+  background-color: transparent;
+  background-image: url("../img/slide1.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 
