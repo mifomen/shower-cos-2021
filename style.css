@@ -1,0 +1,49 @@
+:root {
+  --red: #ff0000;
+}
+
+.slide {
+position: relative;
+}
+
+.slide::after {
+  /*border-radius: 50%;*/
+  display: block;
+  width: 35px;
+  height: 35px;
+  font-size: 1rem;
+  position: absolute;
+  background: transparent;
+  background-color: red;
+  border-bottom-left-radius: 50%;
+
+  left: auto;
+  top: 0px;
+  right: 0;
+  bottom: auto;
+  padding: 0;
+
+}
+.mifomen {
+  color: var(--red);
+}
+
+
+#cover h2 {
+  margin: 30px 0 0;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+
+#cover p {
+  margin: 10px 0 0;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+}
+
+#cover p a {
+  color: white;
+}
