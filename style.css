@@ -3,6 +3,17 @@
   --white: #ffffff;
 }
 
+.vh {
+  position:absolute;
+  clip:rect(1px 1px 1px 1px);
+  clip:rect(1px,1px,1px,1px);
+  padding:0;
+  border:0;
+  height:1px;
+  width:1px;
+  overflow:hidden;
+}
+
 .slide {
 position: relative;
 }
@@ -29,32 +40,120 @@ position: relative;
   color: var(--red);
   background-color: transparent;
   background-repeat: no-repeat;
-  background-image: url("../img/slide1.jpg");
+  background-image: url("img/slide1.jpg");
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .bg-image-2 {
   background-color: var(--white);
-  background-image: url("../img/slide2.jpg");
+  background-image: url("img/slide2.jpg");
   background-size: 100%;
 
 }
 .bg-image-3 {
   background-color: var(--white);
   background-repeat: space;
-  background-image: url("../img/slide4.jpg");
+  background-image: url("img/slide4.jpg");
   background-size: 75%;
     background-position: 60% 40%;
+}
+
+
+.bg-image-ya {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-image: url("img/ya-tutor.jpg");
+  background-size: 75%;
+    background-position: 60% 40%;
+}
+
+.bg-image-ya-2 {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-image: url("img/ya-tutor-2.jpg");
+  background-size: cover;
+}
+
+.bg-pos {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bg-image-quiz {
+  background-image: url("img/quiz.jpg");
+  background-size: 80%;
+}
+
+.bg-image-quiz-2 {
+  background-image: url("img/quiz-2.jpg");
+  background-size: 100%;
+}
+
+.bg-control {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/control.jpg");
+  background-size: cover;
+}
+
+.bg-uchi {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/uchi.jpg");
+  background-size: 80%;
+}
+
+.bg-control {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/control.jpg");
+  background-size: cover;
+}
+
+.bg-chemistry {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/chemistry.jpg");
+  background-size: 80%;
+}
+.bg-skysmart {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/skysmart.jpg");
+  background-size: 80%;
+}
+.bg-learningapps {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/learningapps.jpg");
+  background-size: 95%;
+  background-position: 50% 10%;
+}
+
+.bg-learningapps-2 {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/learningapps-2.jpg");
+  background-size: 95%;
+  background-position: 50% 10%;
 }
 
 .qr {
   background-color: var(--white);
   background-repeat: no-repeat;
-  background-image: url("../img/qr.jpg");
+  background-image: url("img/qr.jpg");
   background-size: 15%;
-    background-position: 50% 20%;
-
+  background-position: 50% 20%;
 }
 
 
