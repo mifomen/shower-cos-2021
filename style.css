@@ -148,6 +148,34 @@ position: relative;
   background-position: 50% 10%;
 }
 
+
+.bg-tablet {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/tablet.jpg");
+  background-size: 95%;
+  background-position: 50% 50%;
+}
+
+.bg-tablet-2 {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/tablet-2.jpg");
+  background-size: 95%;
+  background-position: 50% 50%;
+}
+
+.bg-tablet-3 {
+  background-color: var(--white);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("img/tablet-3.jpg");
+  background-size: 95%;
+  background-position: 50% 50%;
+}
+
 .qr {
   background-color: var(--white);
   background-repeat: no-repeat;
