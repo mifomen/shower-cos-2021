@@ -73,6 +73,7 @@ position: relative;
   background-repeat: no-repeat;
   background-image: url("img/ya-tutor-2.jpg");
   background-size: cover;
+    background-size: 75%;
 }
 
 .bg-pos {
@@ -84,28 +85,29 @@ position: relative;
 
 .bg-image-quiz {
   background-image: url("img/quiz.jpg");
-  background-size: 80%;
+  background-size: cover;
+    background-size: 75%;
 }
 
 .bg-image-quiz-2 {
   background-image: url("img/quiz-2.jpg");
   background-size: 100%;
+    background-size: 75%;
 }
 
 .bg-control {
   background-color: var(--white);
   background-repeat: no-repeat;
-  background-size: cover;
   background-image: url("img/control.jpg");
-  background-size: cover;
+  background-size: 50%;
 }
 
 .bg-uchi {
   background-color: var(--white);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 75%;
   background-image: url("img/uchi.jpg");
-  background-size: 80%;
+  /*background-size: 80%; */
 }
 
 .bg-control {
@@ -113,7 +115,7 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("img/control.jpg");
-  background-size: cover;
+  background-size: 75%;
 }
 
 .bg-chemistry {
@@ -121,21 +123,21 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("img/chemistry.jpg");
-  background-size: 80%;
+    background-size: 65%;
 }
 .bg-skysmart {
   background-color: var(--white);
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("img/skysmart.jpg");
-  background-size: 80%;
+    background-size: 75%;
 }
 .bg-learningapps {
   background-color: var(--white);
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("img/learningapps.jpg");
-  background-size: 95%;
+    background-size: 75%;
   background-position: 50% 10%;
 }
 
@@ -146,6 +148,7 @@ position: relative;
   background-image: url("img/learningapps-2.jpg");
   background-size: 95%;
   background-position: 50% 10%;
+    background-size: 75%;
 }
 
 
@@ -154,8 +157,10 @@ position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("img/tablet.jpg");
-  background-size: 95%;
+    
   background-position: 50% 50%;
+
+    background-size: 75%;
 }
 
 .bg-tablet-2 {
@@ -165,6 +170,7 @@ position: relative;
   background-image: url("img/tablet-2.jpg");
   background-size: 95%;
   background-position: 50% 50%;
+    background-size: 75%;
 }
 
 .bg-tablet-3 {
@@ -174,6 +180,7 @@ position: relative;
   background-image: url("img/tablet-3.jpg");
   background-size: 95%;
   background-position: 50% 50%;
+    background-size: 75%;
 }
 
 .qr {
@@ -181,7 +188,7 @@ position: relative;
   background-repeat: no-repeat;
   background-image: url("img/qr.jpg");
   background-size: 15%;
-  background-position: 50% 20%;
+  background-position: 50% 10%;
 }
 
 
